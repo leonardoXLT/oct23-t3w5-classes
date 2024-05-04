@@ -29,7 +29,8 @@ console.log(libraryInstance);
 
 console.log(libraryInstance.books[0].name);
 
-let lotr2 = new Book("two towers", "fancy");
+let lotr2 = new Book("the two towers", "fancy");
+
 
 console.log(libraryInstance.books.length);
 console.log(Book.count);
@@ -37,4 +38,4 @@ lotr2 = null;
 Book.removeBook();
 console.log(Book.count);
 
-console.log (libraryInstance.books[0].getBookName());
+console.log(libraryInstance.books[0].getBookName());

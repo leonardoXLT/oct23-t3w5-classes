@@ -7,18 +7,18 @@ class Book extends Media {
 
 		this.edition = newEdition;
 
-        Book.count++;
+		Book.count++;
 	}
 
-    static count = 0;
+	static count = 0;
 
-    getBookName(){
-        return this.name + " " + this.edition;
-    }
+	getBookName(){
+		return this.name + ", " + this.edition;
+	}
 
-    static removeBook(){
-        Book.count--;
-    }
+	static removeBook(){
+		Book.count--;
+	}
 }
 
 module.exports = {
