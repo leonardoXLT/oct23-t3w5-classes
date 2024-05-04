@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+
 import PokemonTeam from './components/PokemonTeam';
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <h1>Pokemon Team Generator</h1>
 
       <PokemonTeam />
-
     </div>
   );
 }
